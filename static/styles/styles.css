@@ -1,4 +1,48 @@
-h1 {
-  color: green;
-  text-align: center;
+body {
+  background: whitesmoke;
+  padding: 1px 0px 3px 10px;
+}
+
+.redBox {
+  background: red;
+  height: 32px;
+  padding-top: 16px;
+  padding-left: 48px;
+  padding-right: 48px;
+  width: auto;
+  justify-content: center;
+}
+
+.blackBox {
+  background: black;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-bottom: 8px;
+  height: 8px;
+  width: auto;
+}
+
+.blueBox {
+  display: flex;
+  background: blue;
+  align-items: top;
+  justify-content: center;
+  margin-left: 64px;
+  margin-right: 64px;
+  height: 512px;
+}
+
+.yellowBox {
+  background: yellow;
+  padding: 8px;
+  margin: 16px;
+  height: 64px;
+  width: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.greenBox {
+  background: green;
+  height: 48px;
 }
