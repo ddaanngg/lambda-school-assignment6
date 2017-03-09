@@ -13,6 +13,10 @@ body {
   justify-content: center;
 }
 
+.redBox:hover {
+  background: green;
+}
+
 .blackBox {
   background: black;
   padding-left: 64px;
@@ -20,6 +24,10 @@ body {
   padding-bottom: 8px;
   height: 8px;
   width: auto;
+}
+
+.blackBox:hover {
+  background: white;
 }
 
 .blueBox {
@@ -32,6 +40,10 @@ body {
   height: 512px;
 }
 
+.blueBox:hover {
+  background: orange;
+}
+
 .yellowBox {
   background: yellow;
   padding: 8px;
@@ -42,7 +54,15 @@ body {
   justify-content: center;
 }
 
+.yellowBox:hover {
+  background: purple;
+}
+
 .greenBox {
   background: green;
   height: 48px;
+}
+
+.greenBox:hover {
+  background: red;
 }
