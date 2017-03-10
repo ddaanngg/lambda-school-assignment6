@@ -23,7 +23,7 @@ body {
 }
 
 .navBar-container {
-  background: #2a2b2b;
+  background: rgba(0,0,0,0.5);
   position: relative;
   height: 189px;
   width: auto;
